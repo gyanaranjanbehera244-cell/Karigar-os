@@ -1,0 +1,55 @@
+{
+  "id": "/?source=pwa",
+  "name": "KARIGAR OS - Speak. Snap. Sell.",
+  "short_name": "KARIGAR OS",
+  "description": "AI Business OS for Marginalized Artisans — Speak. Snap. Sell.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "background_color": "#0c0a09",
+  "theme_color": "#d97706",
+  "orientation": "portrait",
+  "categories": ["business", "shopping", "productivity"],
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?auto=format&fit=crop&w=192&h=192&q=80",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?auto=format&fit=crop&w=192&h=192&q=80",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?auto=format&fit=crop&w=512&h=512&q=80",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?auto=format&fit=crop&w=512&h=512&q=80",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Craft Product",
+      "url": "/?action=add_product",
+      "description": "Snap photo and add artisan craft product"
+    },
+    {
+      "name": "Buyer Marketplace",
+      "url": "/?role=buyer",
+      "description": "Browse authenticated handmade artisan goods"
+    }
+  ]
+}
